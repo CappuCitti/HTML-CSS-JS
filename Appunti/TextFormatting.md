@@ -72,4 +72,4 @@ Esempio:
 ```html
 <a href="javascript:alert('Hello World!');">Esegue un *alert*</a>
 ```
-**Risultato**: <a href="javascript:alert('Hello World!');">Esegue un *alert*</a>
+**Risultato**: <a href="javascript:alert('Hello World!');">Esegue un <i>alert</i></a>
