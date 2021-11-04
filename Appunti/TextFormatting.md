@@ -46,7 +46,8 @@ Esempio:
 ```html
 <p>Da <a href="https://github.com/CappuCitti" title="Il mio GitHub" target="_blank">questo link</a> verrà aperta un'altra scheda con la mia homepage di GitHub!
 ```
-**Risultato**: <p>Da <a href="https://github.com/CappuCitti" title="Il mio GitHub" target="_blank">questo link</a> verrà aperta un'altra scheda con la mia homepage di GitHub!<br><br>
+**Risultato**: Da <a href="https://github.com/CappuCitti" title="Il mio GitHub" target="_blank">questo link</a> verrà aperta un'altra scheda con la mia homepage di GitHub!
+<br><br>
   
 ### Altri utilizzi di `href`
 #### Collegamenti ad indirizzi email:
