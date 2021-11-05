@@ -70,6 +70,6 @@ Esempio:
   
 #### Collegamenti a funzioni JavaScrip:
 ```html
-<a href="javascript:alert('Hello World!');">Esegue un *alert*</a>
+<a href="javascript:alert('Hello World!');">Esegue un <i>alert</i></a>
 ```
 **Risultato**: <a href="javascript:alert('Hello World!');">Esegue un <i>alert</i></a>
