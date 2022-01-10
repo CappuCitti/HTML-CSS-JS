@@ -2,7 +2,7 @@
 Javascript viene utilizzato per modificare il contenuto delle pagine HTML, eseguire operazioni ed inviare richieste al server.
 
 ### Implementare JavaScript nella pagina HTML
-E' possibile implementare scripts JavaScrpt utilizzando tag `<script>` dopo la tag `<body>`, come collegamento esterno o direttamente scrivendo codice al suo interno:
+E' possibile implementare scripts JavaScript utilizzando tag `<script>` dopo la tag `<body>`, come collegamento esterno o direttamente scrivendo codice al suo interno:
 ```html
 <head>
   <title>Funzioni</title>
