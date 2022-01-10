@@ -49,5 +49,5 @@ Esistono tre diverse parole chiave utilizzate per dichiarare una variabile in Ja
 Parola chiave | Scopo | Riassegnabile | Ridichiarabile
 --: | :-- | :-: | :-: 
 `var` | Funzione | :heavy_check_mark: | :heavy_check_mark:
-`const` | Blocco di codice | :x: | :x:
 `let` | Blocco di codice | :heavy_check_mark: | :x:
+`const` | Blocco di codice | :x: | :x:
