@@ -16,7 +16,7 @@ function randomNum(x) {
 }
 ```
 
-### Richiamre una funzione
+### Richiamare una funzione
 Le funzioni di JavaScript vengono spesso chiamate tramite bottoni all'interno della pagina HTML, passando il nome della funzione come valore del parametro `onclick`.
 ```html
 <button onclick="time()">Get time</button>
