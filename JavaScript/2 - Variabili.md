@@ -1,5 +1,5 @@
 # Variabili & costanti
-In JavaScript esistono tre diversi tipi di variabili: `var`, `let` e `const`. Ognuna di queste variabili ha diverse regole su come dovrebbero essere usate e ha caratteristiche diverse.<br>
+In JavaScript esistono tre metodi per creare una variabile: `var`, `let` e `const`. Ognuna di questi metodi ha regole e ha caratteristiche diverse.<br>
 Le variabili possono essere utilizzate per memorizzare dati in un programma, come stringhe, numeri, oggetti JSON o valori booleani.
 
 ### Sintassi di una variabile
@@ -17,7 +17,7 @@ var school = "IIS Galvani";
 var school = "IIS Galvani";
 
 // Output
-console.log(`Scuola: ${school}`)
+console.log("Scuola: " + school)
 ```
 
 Output:
@@ -48,6 +48,6 @@ var passed = true;
 Esistono tre diverse parole chiave utilizzate per dichiarare una variabile in JavaScript, ognuna di esse ha un diverso utilizzo.
 Parola chiave | Scopo | Riassegnabile | Ridichiarabile
 --: | :-- | :-: | :-: 
-`var` | Funzione | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
-`const` | Blocco di codice | :heavy_check_mark: | :x: | :x:
-`let` | Blocco di codice | :x: | :x: | :x:
+`var` | Funzione | :heavy_check_mark: | :heavy_check_mark:
+`const` | Blocco di codice | :x: | :x:
+`let` | Blocco di codice | :heavy_check_mark: | :x:

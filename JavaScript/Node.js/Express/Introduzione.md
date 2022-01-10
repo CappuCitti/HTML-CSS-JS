@@ -6,5 +6,5 @@ Express è un framework per applicazioni web Node.js flessibile e leggero che fo
 npm i express --save
 ```
 
-## Gettin started
+## Getting started
 Qui i riferimenti per [inizializzare](https://expressjs.com/it/starter/installing.html) la cartella del sito e su come [avviarlo](https://expressjs.com/it/starter/hello-world.html).

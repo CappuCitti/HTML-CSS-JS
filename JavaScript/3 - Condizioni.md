@@ -2,7 +2,7 @@
 **Le istruzioni condizionali vengono utilizzate per eseguire azioni diverse in base a condizioni diverse.**
 
 * ### `if`
-L'istruzuine `if` viene utilizzato per controllare se una condizione è vera.
+L'istruzione `if` viene utilizzata per controllare se una condizione è vera.
 ```js
 // Sintassi
 
@@ -12,7 +12,7 @@ if (condizione) {
 ```
 
 * ### `else`
-L'istruzione `else` esegue il codice al suo interno in caso la condizione è falsa
+L'istruzione `else` esegue il codice al suo interno in caso la condizione risulti falsa
 ```js
 // Sintassi
 
@@ -24,7 +24,7 @@ if (condizione) {
 ```
 
 * ### `else if`
-L'istruzione `else if` esegue un ulteriore controllo in caso la condizione precedente è falsa
+L'istruzione `else if` esegue un ulteriore controllo in caso la condizione precedente sia falsa
 ```js
 // Sintassi
 
@@ -55,7 +55,7 @@ switch(espressione) {
 ```
 
 ### Esempio
-Nel seguente esempio viene utilizzato `Date()`, uno [Standard built-in objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects) di JavaScript, per ottenere informazioni correnti su ora e data.<br>
+Nel seguente esempio viene utilizzato `Date()`, uno [Standard built-in object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects) di JavaScript, per ottenere informazioni correnti su ora e data.<br>
 Il metodo `getDay()` restituisce il numero corrispondende al giorno della settimana, da 0 (Domenica) a 6 (Sabato).<br>
 Di seguito viene controllato il giorno della settimana associato al numero corrispondente restituito da `getDay()` ed associato alla variabile `day`.
 ```js
@@ -85,6 +85,6 @@ switch (now.getDay()) {
     day = "Sabato";
 }
 
-console.log(`Oggi è ${day}`);
+console.log("Oggi è " + day);
 
 ```

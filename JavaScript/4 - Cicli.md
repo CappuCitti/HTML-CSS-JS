@@ -19,13 +19,10 @@ for (variabile; condizione; azione) {
 }
 ```
 
-Nel seguente esempio viene stanziata e dichiarata la variabile `i` con il valore di `0`, una volta entrati nel _ciclo for_ essa aumenterà ogni volta di 1 (`i++`) per 10 volte (`i < 11`). Ogni volta che il blocco di codice verrà eseguito emetterà in colsole il risultato del'operazioni in successione della tabellina del 3 (`"3 * " + i + " = " + i*3`).
+Nel seguente esempio viene stanziata e dichiarata la variabile `i` con il valore di `0`, una volta entrati nel _ciclo for_ essa aumenterà ogni volta di 1 (`i++`) finchè non risulti falsa (`i < 11`). Ogni volta che il blocco di codice verrà eseguito emetterà in console il risultato delle operazioni in successione della tabellina del 3 (`"3 * " + i + " = " + i*3`).
 ```js
 for (let i = 0; i < 11; i++) {
   console.log("3 * " + i + " = " + i*3);
-  /* Forma contratta:
-  console.log(`3 * ${i} = ${3*i}`);
-  */
 }
 
 /* Output
@@ -49,7 +46,7 @@ Il ciclo `For In` viene utilizzato per scorrere le proprietà di un oggetto.
 ```js
 // Sintassi
 
-for (key in object) {
+for (let key in object) {
   // Blocco di codice da eseguire
 }
 ```
@@ -58,13 +55,13 @@ Nel seguente esempio viene dato l'oggetto `person`, il _ciclo For In_ verrà ese
 ```js
 const person = {
   firstName: "John",
-  lastname: "Doe",
+  lastName: "Doe",
   age: 27,
   job: "Software Engineer"
 }
 
-for (k in person) {
-  console.log(`${k}: ${person[k]}`);
+for (let k in person) {
+  console.log(k + ":" + person[k]);
 }
 
 /* Output
@@ -76,7 +73,7 @@ job: Software Engineer
 ```
 
 * ### Il metodo `forEach()`
-Il metodo `Array.forEach()` viene utilizzato per chiamare una funzione ogni volta per oggetto.<br>
+Il metodo `Array.forEach()` viene utilizzato per eseguire una funzione per ogni elemento.<br>
 🔗 [Sintassi completa](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach?retiredLocale=it#syntax)
 ```js
 // Sintassi
@@ -91,7 +88,7 @@ Il ciclo `For Of` viene utilizzato per far scorrere i valori di un array, di una
 ```js
 // Sintassi
 
-for (val of oggettoItinerabile) {
+for (let val of oggettoItinerabile) {
   // Blocco di codice da eseguire
 }
 ```
@@ -100,7 +97,7 @@ Nel seguente esempio viene dato l'array `people`, il _ciclo For Of_ verrà esegu
 ```js
 const people = ['Adams', 'Baker', 'Clark', 'Davis', 'Evans']
 
-for (name of people) {
+for (let name of people) {
   console.log(name);
 }
 
@@ -117,7 +114,7 @@ In questo altro esempio viene data la stringa `str`, e con il _ciclo For Of_ vie
 ```js
 const str = "Hello, world!"
 
-for (c of str) {
+for (let c of str) {
   console.log(c);
 }
 
@@ -139,7 +136,7 @@ d
 ```
 
 * ### Ciclo `While`
-Il _ciclo While_ esegue un blocco di codice finchè una la condizione di controllo è vera.
+Il _ciclo While_ esegue un blocco di codice fin quando una la condizione di controllo è vera.
 ```js
 // Sintassi
 
@@ -147,8 +144,8 @@ while (condizione) {
   // Blocco di codice da eseguire
 }
 ```
-
-La stessa logica viene applicata al cilo `Do/While`.
+* ### Ciclo `Do/While`
+Il *ciclo Do/While* esegue una volta il blocco di codice al suo interno, dopo di che lo eseguira' soltanto in caso la condizione risulti vera.
  ```js
 // Sintassi
 
